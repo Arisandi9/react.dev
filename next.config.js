@@ -2,9 +2,8 @@
  * Copyright (c) Facebook, Inc. and its affiliates.
  */
 
-/**
- * @type {import('next').NextConfig}
- **/
+ @type {import('next').NextConfig}
+
 const nextConfig = {
   output: 'export',
   pageExtensions: ['jsx', 'js', 'ts', 'tsx', 'mdx', 'md'],
